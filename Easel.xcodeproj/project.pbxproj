@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB63FC0F1CBC7F7C00252880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB63FC0E1CBC7F7C00252880 /* AppDelegate.swift */; };
+		EB63FC111CBC7F7C00252880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB63FC101CBC7F7C00252880 /* ViewController.swift */; };
+		EB63FC141CBC7F7C00252880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB63FC121CBC7F7C00252880 /* Main.storyboard */; };
+		EB63FC161CBC7F7C00252880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB63FC151CBC7F7C00252880 /* Assets.xcassets */; };
+		EB63FC191CBC7F7C00252880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB63FC171CBC7F7C00252880 /* LaunchScreen.storyboard */; };
+		EB63FC211CBC838C00252880 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB63FC201CBC838C00252880 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB63FC0B1CBC7F7C00252880 /* Easel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Easel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB63FC0E1CBC7F7C00252880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB63FC101CBC7F7C00252880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB63FC131CBC7F7C00252880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB63FC151CBC7F7C00252880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB63FC181CBC7F7C00252880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB63FC1A1CBC7F7C00252880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB63FC201CBC838C00252880 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB63FC081CBC7F7C00252880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB63FC021CBC7F7C00252880 = {
+			isa = PBXGroup;
+			children = (
+				EB63FC0D1CBC7F7C00252880 /* Easel */,
+				EB63FC0C1CBC7F7C00252880 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB63FC0C1CBC7F7C00252880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB63FC0B1CBC7F7C00252880 /* Easel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB63FC0D1CBC7F7C00252880 /* Easel */ = {
+			isa = PBXGroup;
+			children = (
+				EB63FC0E1CBC7F7C00252880 /* AppDelegate.swift */,
+				EB63FC101CBC7F7C00252880 /* ViewController.swift */,
+				EB63FC121CBC7F7C00252880 /* Main.storyboard */,
+				EB63FC151CBC7F7C00252880 /* Assets.xcassets */,
+				EB63FC171CBC7F7C00252880 /* LaunchScreen.storyboard */,
+				EB63FC1A1CBC7F7C00252880 /* Info.plist */,
+				EB63FC201CBC838C00252880 /* SettingsViewController.swift */,
+			);
+			path = Easel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB63FC0A1CBC7F7C00252880 /* Easel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB63FC1D1CBC7F7C00252880 /* Build configuration list for PBXNativeTarget "Easel" */;
+			buildPhases = (
+				EB63FC071CBC7F7C00252880 /* Sources */,
+				EB63FC081CBC7F7C00252880 /* Frameworks */,
+				EB63FC091CBC7F7C00252880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Easel;
+			productName = Easel;
+			productReference = EB63FC0B1CBC7F7C00252880 /* Easel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB63FC031CBC7F7C00252880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mengying Feng";
+				TargetAttributes = {
+					EB63FC0A1CBC7F7C00252880 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EB63FC061CBC7F7C00252880 /* Build configuration list for PBXProject "Easel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB63FC021CBC7F7C00252880;
+			productRefGroup = EB63FC0C1CBC7F7C00252880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB63FC0A1CBC7F7C00252880 /* Easel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB63FC091CBC7F7C00252880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB63FC191CBC7F7C00252880 /* LaunchScreen.storyboard in Resources */,
+				EB63FC161CBC7F7C00252880 /* Assets.xcassets in Resources */,
+				EB63FC141CBC7F7C00252880 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB63FC071CBC7F7C00252880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB63FC111CBC7F7C00252880 /* ViewController.swift in Sources */,
+				EB63FC0F1CBC7F7C00252880 /* AppDelegate.swift in Sources */,
+				EB63FC211CBC838C00252880 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB63FC121CBC7F7C00252880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB63FC131CBC7F7C00252880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB63FC171CBC7F7C00252880 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB63FC181CBC7F7C00252880 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB63FC1B1CBC7F7C00252880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB63FC1C1CBC7F7C00252880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB63FC1E1CBC7F7C00252880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Easel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilyvon.Easel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB63FC1F1CBC7F7C00252880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Easel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilyvon.Easel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB63FC061CBC7F7C00252880 /* Build configuration list for PBXProject "Easel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB63FC1B1CBC7F7C00252880 /* Debug */,
+				EB63FC1C1CBC7F7C00252880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB63FC1D1CBC7F7C00252880 /* Build configuration list for PBXNativeTarget "Easel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB63FC1E1CBC7F7C00252880 /* Debug */,
+				EB63FC1F1CBC7F7C00252880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB63FC031CBC7F7C00252880 /* Project object */;
+}
